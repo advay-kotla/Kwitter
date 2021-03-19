@@ -54,4 +54,14 @@ function updateLike(message_id) {
 
 }
 
+function logout () {
+      localStorage.removeItem("room_name");
+   
+      localStorage.removeItem("user_name");
+      
+       window.location("index.html");
+   
+   }
+   
+
 
